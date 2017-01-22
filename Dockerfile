@@ -2,7 +2,7 @@ FROM ruby:2.4
 
 MAINTAINER thinkbot@outlook.de
 
-ENV VERSION=0.2.1
+ENV VERSION=0.3.0
 
 RUN gem install es-reindex --version ${VERSION} --no-format-exec
 
